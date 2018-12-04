@@ -25,7 +25,7 @@ var onRemoveAll = function onRemoveAll() {
   render();
 };
 
-var appRoot = document.getElementById('app');
+var appRoot = document.getElementById('App');
 
 var render = function render() {
   var template = React.createElement(

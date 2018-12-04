@@ -23,7 +23,7 @@ const onRemoveAll = () => {
   render();
 };
 
-const appRoot = document.getElementById('app');
+const appRoot = document.getElementById('App');
 
 const render = () => {
   const template = (
