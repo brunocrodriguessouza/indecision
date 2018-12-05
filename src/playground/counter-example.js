@@ -12,7 +12,7 @@ const reset = () => {
   renderCounterApp();
 };
 
-const appRoot = document.getElementById('app');
+const appRoot = document.getElementById('App');
 
 const renderCounterApp = () => {
   const templateTwo = (
