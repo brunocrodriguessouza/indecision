@@ -1,3 +1,5 @@
+// counter
+
 let count = 0;
 const addOne = () => {
   count++;
