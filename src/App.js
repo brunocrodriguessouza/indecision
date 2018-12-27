@@ -11,6 +11,15 @@ class IndecisionApp extends React.Component {
       options: props.options
     };
   }
+  componentDidMount() {
+    console.log('fetching data');
+  }
+  componentDidUpdate(prevProps, prevState) {
+    console.log('saving data');
+  }
+  componentWillUnmount() {
+    console.log('componentWillUnmount');
+  }
   handleDeleteOptions() {
     this.setState(() => ({ options: [] }));
   }
@@ -148,6 +157,15 @@ class AddOption extends React.Component {
     );
   }
 }
+
+// const User = (props) => {
+//   return (
+//     <div>
+//       <p>Name: {props.name}</p>
+//       <p>Age: {props.age}</p>
+//     </div>
+//   );
+// };
 
 ReactDOM.render(<IndecisionApp />, document.getElementById('App'));
 
