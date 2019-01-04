@@ -5,8 +5,14 @@
   "repository": "git@github.com:brunocrodriguessouza/indecision.git",
   "author": "Bruno Souza <brunoprogramadorjava@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "server": "live-server public/",
+    "build": "babel src/App.js --out-file=public/scripts/App.js --presets=env,react --watch"
+  },
   "dependencies": {
+    "babel-cli": "6.24.1",
     "babel-preset-env": "1.5.2",
-    "babel-preset-react": "6.24.1"
+    "babel-preset-react": "6.24.1",
+    "live-server": "^1.2.1"
   }
 }
