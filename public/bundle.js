@@ -986,20 +986,28 @@ module.exports = getActiveElement;
 
 /***/ }),
 /* 15 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
+
+
+var _react = __webpack_require__(5);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(18);
+
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 // install -> import -> use
-
-
-
-const template = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('p', {}, 'testing 123');
-__WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(template, document.getElementById('app'));
+var template = _react2.default.createElement(
+  'p',
+  null,
+  'THIS IS JSX FROM WEBPACK'
+);
+_reactDom2.default.render(template, document.getElementById('app'));
 
 // import validator from 'validator';
 
@@ -1017,7 +1025,6 @@ __WEBPACK_IMPORTED_MODULE_1_react_dom___default.a.render(template, document.getE
 // console.log(isAdult(18));
 // console.log(canDrink(20));
 // console.log(isSenior(65));
-
 
 /***/ }),
 /* 16 */
