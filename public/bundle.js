@@ -21441,6 +21441,8 @@ var AddOption = function (_React$Component) {
     value: function handleAddOption(e) {
       e.preventDefault();
 
+      console.log("Adding option");
+
       var option = e.target.elements.option.value.trim();
       var error = this.props.handleAddOption(option);
 
