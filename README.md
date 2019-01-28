@@ -13,6 +13,6 @@ live-server public
 
 ------------------------------------------------------------------------------------------------------
 
-after branch 6 use: yarn run server 
+after branch 6 use: yarn run server
 
 
