@@ -4,7 +4,8 @@ import Option from './Option';
 const Options = (props) => {
   return (
     <div>
-      <button 
+      <button
+          className="button button--link"
           onClick={props.handleDeleteOptions}
           disabled={!props.hasOptions}
       >
