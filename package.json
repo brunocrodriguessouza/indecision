@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:brunocrodriguessouza/indecision.git",
-  "author": "Bruno Souza <brunoprogramadorjava@gmail.com>",
+  "author": "Bruno Souza <brunocrodriguessouza@gmail.com>",
   "license": "MIT",
   "scripts": {
     "server": "live-server public/",
